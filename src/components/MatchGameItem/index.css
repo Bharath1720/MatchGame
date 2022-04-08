@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+.match-game-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.initial-image {
+  width: 600px;
+  margin: 30px;
+}
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+.games-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 600px;
+  padding-left: 0px;
+}
+pre {
+  color: antiquewhite;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

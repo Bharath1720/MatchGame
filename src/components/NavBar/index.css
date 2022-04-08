@@ -1,0 +1,42 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2c0e3a;
+  padding: 8px;
+}
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.game-logo {
+  height: 40px;
+}
+
+.scores-container,
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.timer-img {
+  height: 30px;
+}
+.score {
+  margin: 10px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.span-score {
+  color: #fec653;
+}
